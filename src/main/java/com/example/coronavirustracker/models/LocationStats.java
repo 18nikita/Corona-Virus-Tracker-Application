@@ -4,7 +4,7 @@ public class LocationStats {
     private String state;
     private String country;
     private int latestTotalCases;
-
+    private int diffFromPrivious;
 
     public int getDiffFromPrivious() {
         return diffFromPrivious;
@@ -12,9 +12,7 @@ public class LocationStats {
 
     public void setDiffFromPrivious(int diffFromPrivious) {
         this.diffFromPrivious = diffFromPrivious;
-    }
-
-    private int diffFromPrivious;
+    }  
 
     public String getState() {
         return state;
